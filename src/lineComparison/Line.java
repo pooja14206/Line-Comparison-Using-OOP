@@ -35,4 +35,8 @@ public class Line {
 			return false;
 		return true;
 	}
+	
+	public int compare (Line line) {
+		return this.length.compareTo(line.length);
+	}
 }
